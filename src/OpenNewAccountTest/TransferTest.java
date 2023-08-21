@@ -33,11 +33,11 @@ public class TransferTest extends ParameterDriver {
 
         WebElement fromSelect = driver.findElement(By.cssSelector("select[id='fromAccountId']"));
         Select select5 = new Select(fromSelect);
-        select5.selectByValue("17007");
+        select5.selectByValue("14454");
 
         WebElement toSelect = driver.findElement(By.cssSelector("select[id='toAccountId']"));
         Select select6 = new Select(toSelect);
-        select6.selectByValue("17007");
+        select6.selectByValue("14454");
 
         WebElement transferButton = driver.findElement(By.cssSelector("input[value='Transfer']"));
         transferButton.click();

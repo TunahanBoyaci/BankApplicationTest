@@ -6,8 +6,8 @@
         <parameter name="browser" value="firefox"></parameter>
 
         <classes>
-<!--            <class name="OpenNewAccountTest.OpenNewAccountTest"></class>-->
 <!--            <class name="OpenNewAccountTest.RegisterNewAccountTest"></class>-->
+            <class name="OpenNewAccountTest.OpenNewAccountTest"></class>
             <class name="OpenNewAccountTest.TransferTest"></class>
         </classes>
     </test>
