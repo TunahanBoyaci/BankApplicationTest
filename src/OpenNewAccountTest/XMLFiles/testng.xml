@@ -3,15 +3,11 @@
 <suite name="All Test Suite">
     <test name="OpenNewAccountTest">
 
-        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
 
         <classes>
-            <class name="OpenNewAccountTest.OpenNewAccountTest"></class>
-            <class name="OpenNewAccountTest.RegisterNewAccountTest">
-                <methods>
-                    <exclude name="test1"></exclude>
-                </methods>
-            </class>
+<!--            <class name="OpenNewAccountTest.OpenNewAccountTest"></class>-->
+            <class name="OpenNewAccountTest.RegisterNewAccountTest"></class>
         </classes>
     </test>
 </suite>

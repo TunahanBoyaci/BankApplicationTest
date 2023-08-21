@@ -2,11 +2,12 @@ package OpenNewAccountTest;
 
 import Utilities.BaseDriver;
 import Utilities.MyMethods;
+import Utilities.ParameterDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class RegisterNewAccountTest extends BaseDriver {
+public class RegisterNewAccountTest extends ParameterDriver {
     @Test
     public void test1(){
         driver.get("https://parabank.parasoft.com/parabank/index.htm");
